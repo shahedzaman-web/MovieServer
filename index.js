@@ -101,7 +101,7 @@ app.post("/addMovie", (req, res) => {
     ReleaseDate: req.body.ReleaseDate,
     Budget: req.body.Budget,
     Collection: req.body.Collection,
-    MoviePoster: req.body.Collection
+    MoviePoster: req.body.MoviePoster
   }).save((err, response) => {
     if (err) res.status(201).send(err);
     res.status(201).send(response);
