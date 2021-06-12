@@ -23,8 +23,8 @@ const MovieListSchema = mongoose.Schema({
     required: true,
   },
   MoviePoster: {
-    type: Number,
-    required: true,
+    type: String ,
+   
   }
 });
 
