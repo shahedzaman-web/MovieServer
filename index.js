@@ -90,10 +90,6 @@ app.put("/movieUpdate/:id",(req, res)=>{
         });
 })
 
-
-
-
-
 app.post("/addMovie", (req, res) => {
   var movieList = new MovieList({
     MovieName: req.body.MovieName,
